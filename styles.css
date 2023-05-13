@@ -1,86 +1,80 @@
-body {
-    display: flex;
-    flex-direction: column;
-}
-.header {
-    border: 5px solid red;
-    background-color: #1F2937;
-}
-
 .header-container {
-    border: 5px solid orange;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 48px;
-   
+    border: solid 10px red;
 }
 
-.logo {
-    color: #f9faf8;
-    font-size: 20px;
-    font-weight: bold;
+.header-logo {
+    border: solid 10px orange;
 }
 
-ul {
+.header-link-container {
+    border: solid 10px yellow;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    gap: 20px;
-    list-style: none;
+    list-style: none;  
 }
 
-li {
-    font-style: none;
-    color: #e5e7eb;
+.hero-text {
+    border: solid 10px green;
+}
+
+.hero-subtext {
+    border: solid 10px indigo;
+}
+
+.signup-button {
+    border: solid 10px violet;
+}
+
+.hero-image {
+    border: solid 10px blue;
 }
 
 .hero-container {
-    border: 5px solid purple;
+    border: solid 10px violet;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-text-container {
+    justify-content: left;
+    border: solid 10px red;
+}
+
+.information-title {
+    display: flex;
+    border: solid 10px pink;
+    justify-content: center;
+}
+
+.information-image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-image, .info-image-subtext {
+    border: solid 10px brown;
+}
+
+.quote-container {
+    border: solid 10px aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
 }
 
-.hero {
-    font-size: 48px;
-    font-style: bold;
-    color: #f9faf8;
+.action-container {
+    border:solid 10px black;
+    display: flex;
+    justify-content: center;
 }
 
-.hero-text {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.hero,
-.hero-text {
-    
-}
-
-.image-container {
-    border: 5px solid pink;
-}
-
-#signup {
-    
-}
-
-.info {
-    border: 5px solid yellow;
-}
-
-.quote {
-    border: 5px solid blue;
-}
-
-.signup {
-    border: 5px solid green;
-}
-
-.footer {
-    border: 5px solid orange;
+footer {
+    text-align: center;
 }
