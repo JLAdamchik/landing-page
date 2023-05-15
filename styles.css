@@ -1,21 +1,30 @@
+<<<<<<< HEAD
 .hero, footer {
     background-color: #1F2937;
 }
 
+=======
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 .header-container {
     display:flex;
     justify-content: space-between;
     align-items: center;
     border: solid 10px red;
+<<<<<<< HEAD
     margin-left: 150px;
     margin-right: 150px;
     
+=======
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .header-logo {
     border: solid 10px orange;
+<<<<<<< HEAD
     font-size: 24px;
     color: #F9FAF8;
+=======
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .header-link-container {
@@ -25,13 +34,34 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     list-style: none;
     width: 300px;  
+=======
+    list-style: none;  
+}
+
+.hero-text {
+    border: solid 10px green;
+}
+
+.hero-subtext {
+    border: solid 10px indigo;
+}
+
+.signup-button {
+    border: solid 10px violet;
+}
+
+.hero-image {
+    border: solid 10px blue;
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .hero-container {
     border: solid 10px violet;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
@@ -69,12 +99,21 @@
     justify-content: left;
     border: solid 10px red;
     width: 450px;
+=======
+    justify-content: space-around;
+}
+
+.hero-text-container {
+    justify-content: left;
+    border: solid 10px red;
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .information-title {
     display: flex;
     border: solid 10px pink;
     justify-content: center;
+<<<<<<< HEAD
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -106,6 +145,17 @@
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
+=======
+}
+
+.information-image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-image, .info-image-subtext {
+    border: solid 10px brown;
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .quote-container {
@@ -114,6 +164,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height: 200px;
     width: 500px;
 }
@@ -128,11 +179,14 @@
     border: solid 5px red;
     align-self: flex-end;
     font-weight: bold;
+=======
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 .action-container {
     border:solid 10px black;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
     align-items: center;
     height: 200px;
@@ -150,10 +204,16 @@
 
 .action-text-container {
 
+=======
+    justify-content: center;
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
 
 footer {
     text-align: center;
+<<<<<<< HEAD
     height: 20px;
     color: white;
+=======
+>>>>>>> 667d11208002aa0065d3d44c632a9e48c9790ab8
 }
