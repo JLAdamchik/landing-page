@@ -51,7 +51,7 @@
     color: #E5E7EB;
 }
 
-.signup-button {
+.signup-button, .action-button {
     border: solid 10px violet;
     background-color: #3882F6;
     width: max-content;
@@ -61,6 +61,7 @@
 .hero-image {
     border: solid 10px blue;
     width: 400px;
+    height: 400px;
 }
 
 
@@ -150,6 +151,10 @@
 
 .action-text-container {
 
+}
+
+.action-button {
+    border: solid 1px white;
 }
 
 footer {
