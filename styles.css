@@ -6,31 +6,27 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 10px red;
     margin-left: 150px;
+    margin-bottom: 50px;
     margin-right: 150px;
-    
 }
 
 .header-logo {
-    border: solid 10px orange;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .header-link-container {
-    border: solid 10px yellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 300px;  
+    width: 400px;
 }
 
 .hero-container {
-    border: solid 10px violet;
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
@@ -39,68 +35,71 @@
 }
 
 .hero-text {
-    border: solid 10px green;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.hero-subtext, .header-link-container {
-    border: solid 10px indigo;
+.hero-subtext, .header-link-container, a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .signup-button, .action-button {
-    border: solid 10px violet;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
     background-color: #3882F6;
-    width: max-content;
+    width: 70px;
     color: white;
 }
 
-.hero-image {
-    border: solid 10px blue;
-    width: 400px;
-    height: 400px;
+.signup-button {
+    margin-top: 5px;
 }
 
-
+.hero-image {
+    width: 400px;
+    height: 250px;
+}
 
 .hero-text-container {
     justify-content: left;
-    border: solid 10px red;
     width: 450px;
 }
 
 .information-title {
     display: flex;
-    border: solid 10px pink;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 20px;
 }
 
 .information-image-container {
-    border: solid 10px blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-left: 200px;
-    margin: 100px;
+    margin-bottom: 100px;
     margin-right: 200px;
     
 }
 
 .info-image {
+    border-radius: 25px;
     border: solid 2px #3882F6;
-    height: 150px;
     width: 150px;
+    height: 150px;
+    justify-self: center;
 }
 
 .info-image-subtext {
-    border: solid 5px red;
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
 }
 
 .quote-section {
@@ -110,7 +109,6 @@
 }
 
 .quote-container {
-    border: solid 10px aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,13 +124,12 @@
 }
 
 .quote-author {
-    border: solid 5px red;
     align-self: flex-end;
     font-weight: bold;
+    color: #1F2937;
 }
 
 .action-container {
-    border:solid 10px black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -155,6 +152,7 @@
 
 .action-button {
     border: solid 1px white;
+    width: 75px;
 }
 
 footer {
